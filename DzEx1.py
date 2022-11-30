@@ -9,8 +9,8 @@
 
 def sum_numbers():
     lst = []
-
-    for i in range(5):
+    n = int(input("Enter size list: "))
+    for i in range(n):
         lst.append(int(input("Enter some number: ")))
     print(lst)
     result = 0
